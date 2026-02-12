@@ -1,16 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.f84a2eaa.css",
-    "main.js": "/static/js/main.f4e12a1b.js",
-    "static/js/453.acca0757.chunk.js": "/static/js/453.acca0757.chunk.js",
-    "static/media/kuva1.png": "/static/media/kuva1.87b8c0ba7a30ddfe348d.png",
-    "index.html": "/index.html",
-    "main.f84a2eaa.css.map": "/static/css/main.f84a2eaa.css.map",
-    "main.f4e12a1b.js.map": "/static/js/main.f4e12a1b.js.map",
-    "453.acca0757.chunk.js.map": "/static/js/453.acca0757.chunk.js.map"
+    "main.css": "/Portfolio-SakuS/static/css/main.a7cbde34.css",
+    "main.js": "/Portfolio-SakuS/static/js/main.c4dcab35.js",
+    "static/js/453.c83862ee.chunk.js": "/Portfolio-SakuS/static/js/453.c83862ee.chunk.js",
+    "static/media/thesis.jpg": "/Portfolio-SakuS/static/media/thesis.018119fae4e7ac827e6a.jpg",
+    "static/media/kuva1.png": "/Portfolio-SakuS/static/media/kuva1.87b8c0ba7a30ddfe348d.png",
+    "static/media/chatbot.png": "/Portfolio-SakuS/static/media/chatbot.b1975b051ecdf75389ba.png",
+    "static/media/kavely.png": "/Portfolio-SakuS/static/media/kavely.e024377770b03f968a87.png",
+    "index.html": "/Portfolio-SakuS/index.html",
+    "main.a7cbde34.css.map": "/Portfolio-SakuS/static/css/main.a7cbde34.css.map",
+    "main.c4dcab35.js.map": "/Portfolio-SakuS/static/js/main.c4dcab35.js.map",
+    "453.c83862ee.chunk.js.map": "/Portfolio-SakuS/static/js/453.c83862ee.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f84a2eaa.css",
-    "static/js/main.f4e12a1b.js"
+    "static/css/main.a7cbde34.css",
+    "static/js/main.c4dcab35.js"
   ]
 }
