@@ -4,11 +4,11 @@
     color: #ffffff; /* White text for contrast */
     padding: 40px 20px;
     border-radius: 8px; /* Rounded corners */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Depth */
-    margin: 20px auto;
-    max-width: 900px; /* Constrain width */
+    margin: 0;
+    max-width: none; /* Constrain width */
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 /* About Content Layout */
@@ -26,15 +26,16 @@
 }
 
 .about-heading {
+    text-align: center;
     font-size: 2rem;
     color: #add8e6; /* Light blue highlight */
-    margin-bottom: 50px;
+    
 }
 
 .about-description {
     font-size: 1rem;
-    line-height: 1.8;
-    color: #dddddd; /* Light gray for readability */
+    line-height: 1.6;
+    color: #dddddd;
     text-align: justify;
     margin-bottom: 20px;
 }
@@ -42,40 +43,39 @@
 /* About Links */
 .about-links {
     display: flex;
-    gap: 15px; /* Space between links */
+    gap: 15px;
 }
 
 .about-link {
-    color: #add8e6; /* Light blue link color */
-    text-decoration: none;
-    font-weight: bold;
-    padding: 5px 10px;
-    border-radius: 5px;
-    transition: background-color 0.3s ease, color 0.3s ease;
+    display: inline-block;
+  padding: 6px 2px;
+  border-radius: 999px;
+  color: #add8e6;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.95rem;
+  border: 1px solid transparent;
+  transition: background-color .15s ease, border-color .15s ease, color .15s ease;
 }
 
 .about-link:hover {
-    background-color: #add8e6;
-    color: #1e1e1e;
+    background: rgba(173,216,230,0.12);
+    border-color: rgba(173,216,230,0.25);
+    color: #ffffff;
 }
 
-/* About Image Section */
-.about-image {
-    flex: 1;
-    min-width: 250px;
-    max-width: 300px;
-    text-align: center;
-}
 
 .profile-picture {
+    text-align: center;
+    display: block;
     width: 100%;
     height: auto;
-    /*border-radius: 50%; /* Circular image */
-    border: 3px solid #add8e6; /* Light blue border */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Add depth */
+    min-width: 250px;
+    max-width: 300px;
+    border: 3px solid #add8e6;
+    justify-content: center;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
     .about-content {
         flex-direction: column;
@@ -83,6 +83,6 @@
     }
 
     .about-image {
-        max-width: 150px; /* Smaller image on smaller screens */
+        max-width: 150px;
     }
 }

@@ -5,33 +5,28 @@ function Skills() {
     return (
         <section id="skills" className="skills-section">
             <h2 className="skills-heading">Skills</h2>
-            <ul className="skills-list">
+            <div className="section-inner">
+            <ul className="skills-list cards-stack">
                 <li className="skill-item">
-                    <h3 className="skill-title">Coding languages:</h3>
-                    <p className="skill-description">I have primarily worked on school projects using React, Python,
-                        and Flutter, such as developing a fitness tracker mobile app, climate change data chart website
-                        and an AI chatbot using OpenAI's API. I also have basic knowledge of C, C++, Java, MySQL,
-                        and Kotlin, supported by coursework and small projects. 
-                        Additionally, I have experience in Linux shell scripting.</p>
+                    <h3 className="skill-title">Languages & Frameworks:</h3>
+                    <p className="skill-description">Python · React · Flutter <br />
+                        C · C++ · Java · JavaScript · Kotlin · MySQL · Dart · Firebase <br />
+                        Majority of projects done with Python, React and flutter. Know the basics of all the mentioned languages and frameworks. </p>
                 </li>
                 <li className="skill-item">
-                    <h3 className="skill-title">Version control:</h3>
-                    <p className="skill-description">I have hands-on experience with Git for version control, 
-                        managing repositories and workflows during numerous school projects. 
-                        I am proficient in branching, merging, resolving conflicts, and creating pull requests.</p>
+                    <h3 className="skill-title">Tools & Technologies:</h3>
+                    <p className="skill-description">Git · Windows · Linux · REST APIs <br />Efficient in using Git for version control and managing code repositories. Windows is my main platform for development, but I am also comfortable working on Linux. </p>
                 </li>
                 <li className="skill-item">
-                    <h3 className="skill-title">Windows-operating system and Office 365:</h3>
-                    <p className="skill-description">I am proficient in the Windows operating system, including advanced 
-                        features like system troubleshooting, performance optimization, and file management. In the Office 
-                        365 environment, I have experience utilizing Excel, Word, Powerpoint and Teams. </p>
+                    <h3 className="skill-title">Development Practices:</h3>
+                    <p className="skill-description">Agile / Scrum <br />I know the fundamentals of Agile and Scrum methodologies, and have used them in team environment when working on my thesis project.</p>
                 </li>
                 <li className="skill-item">
-                    <h3 className="skill-title">Problem solving ability:</h3>
-                    <p className="skill-description">I have a strong aptitude for quickly learning new devices and technologies. 
-                        I am efficient at troubleshooting and able to come up with rather innovative solutions.</p>
+                    <h3 className="skill-title">Technical Support & Systems:</h3>
+                    <p className="skill-description">Built and configured custom desktop systems <br />Diagnosed and resolved hardware and OS-related issues <br />Provided technical support to users and colleagues</p>
                 </li>
             </ul>
+            </div>
         </section>
     );
 }

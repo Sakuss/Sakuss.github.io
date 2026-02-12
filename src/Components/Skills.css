@@ -1,11 +1,6 @@
 /* Skills Section */
-.skills-section {
-    /*background-color: #1e1e1e; /* Match site background if it's dark */
-    color: #ffffff; /* White text for contrast */
-    padding: 40px 20px;
-    border-radius: 8px; /* Subtle rounded corners */
-    margin: 20px auto;
-    max-width: 800px; /* Center and constrain width */
+.skills-section{
+  margin: 0;
 }
 
 /* Section Heading */
@@ -18,23 +13,18 @@
 }
 
 /* Skills List */
-.skills-list {
-    list-style: none; /* Remove default list styling */
-    padding: 0;
-    margin: 0;
+.skills-list{
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .skill-item {
+    width: 100%;
     margin-bottom: 20px;
     padding: 20px;
     background: #1e1e1e; /* Slightly lighter background for contrast */
     border-radius: 8px; /* Rounded corners */
-    transition: transform 0.2s ease-in-out, background-color 0.3s ease-in-out; /* Smooth hover effects */
-}
-
-.skill-item:hover {
-    background-color: #333; /* Highlight on hover */
-    transform: translateY(-5px); /* Slight lift effect */
 }
 
 /* Titles and Descriptions */
@@ -45,6 +35,7 @@
 }
 
 .skill-description {
+    margin: 10px 0;
     font-size: 1rem;
     line-height: 1.6;
     color: #dddddd; /* Lighter gray for better readability */

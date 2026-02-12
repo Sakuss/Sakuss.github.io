@@ -5,27 +5,29 @@ function WorkExperience() {
     return (
         <section id="work" className="work-section">
             <h2 className="work-heading">Work Experience</h2>
-            <ul className="work-list">
+            <div className="section-inner">
+            <ul className="work-list cards-stack">
                 <li className="work-item">
                     <h3 className="work-title">Cleaner</h3>
-                    <p className="work-description">Company: Coor</p>
+                    <p className="work-description">Company: Coor Service Management Oy</p>
                     <p className="work-description">Year: 2022 - </p>
                     <p className="work-description">I do regular and thorough cleanings at this firm with zero-hours contract.</p>
                 </li>
                 <li className="work-item">
-                    <h3 className="work-title">Night Security/Location Unit</h3>
-                    <p className="work-description">Company: Whatevergroup</p>
+                    <h3 className="work-title">Night Security/Location Unit/Runner</h3>
+                    <p className="work-description">Company: Whatever pictures Oy</p>
                     <p className="work-description">Year: 2021 - 2024</p>
-                    <p className="work-description">I've done some gigs for this company, mainly focusing on securing filming locations during the night or helping as a member of the location unit during filming.</p>
+                    <p className="work-description">I've done some gigs for this company, mainly focusing on securing filming locations during the night, helping as a member of the location unit during filming and being a on-set runner.</p>
                 </li>
                 <li className="work-item">
                     <h3 className="work-title">Summer Jobs</h3>
-                    <p className="work-description">Companies: Service One, Oulun teatteri, Polar Electro </p>
+                    <p className="work-description">Companies: A&A Palvelut Oy, Oulun Kaupunginteatteri Oy, Polar Electro Oy</p>
                     <p className="work-description">Year: 2014 - 2020</p>
-                    <p className="work-description">I was cleaner at Service one in 2019, doing same things I do now at Coor. I was maintanence painter at Oulun teatteri in 2016. 
+                    <p className="work-description">I was cleaner at A&A palvelut in 2019, doing same things I do now at Coor. I was maintanence painter at Oulun teatteri in 2016. 
                         At Polar Electro, i was on preassembly team in 2014. The job included testing and assembling heart rate monitors.</p>
                 </li>
             </ul>
+            </div>
         </section>
     );
 }

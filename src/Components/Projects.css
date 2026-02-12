@@ -1,10 +1,6 @@
 /* Projects Section */
 .projects-section {
-    color: #ffffff; /* White text for contrast */
-    padding: 40px 20px;
-    border-radius: 8px; /* Rounded corners */
-    margin: 20px auto;
-    max-width: 1850px; /* Center the section and constrain width */
+    margin: 0;
 }
 
 /* Section Heading */
@@ -17,14 +13,10 @@
 }
 
 /* Projects List */
-.projects-list {
-    display: flex; /* Align projects side by side */
-    flex-wrap: wrap; /* Wrap to next row on smaller screens */
-    gap: 20px; /* Add space between items */
-    list-style: none; /* Remove default list styling */
-    padding: 0;
-    margin: 0;
-    justify-content: space-around; /* Distribute space between items */
+.projects-list{
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 /* Individual Project Item */
@@ -33,15 +25,6 @@
     color: #ffffff;
     padding: 20px;
     border-radius: 8px; /* Rounded corners */
-    width: 45%; /* Constrain width for two items per row */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Add depth */
-    transition: transform 0.2s ease-in-out, background-color 0.3s ease-in-out; /* Smooth hover effects */
-}
-
-/* Hover Effect */
-.project-item:hover {
-    background-color: #333; /* Highlight on hover */
-    transform: translateY(-5px); /* Slight lift effect */
 }
 
 /* Titles and Descriptions */
@@ -57,10 +40,6 @@
     text-decoration: none;
 }
 
-.project-title a:hover {
-    text-decoration: underline; /* Add underline on hover */
-}
-
 .project-description {
     font-size: 1rem;
     line-height: 1.6;
@@ -71,4 +50,30 @@
 .project-tech {
     font-size: 0.9rem;
     color: #bbbbbb; /* Subtle gray for tech stack */
+}
+
+.project-links p{
+    display: inline-block;
+    padding: 6px 2px;
+  border-radius: 999px;
+  color: #add8e6;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.95rem;
+  border: 1px solid transparent;
+  transition: background-color .15s ease, border-color .15s ease, color .15s ease;
+}
+.project-links p:hover {
+  background: rgba(173,216,230,0.12);
+  border-color: rgba(173,216,230,0.25);
+  color: #ffffff;
+}
+
+.project-picture {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 15px;
+    
 }

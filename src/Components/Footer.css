@@ -1,15 +1,10 @@
 /* Footer Styling */
-.footer {
-    position: fixed; /* Fixes the footer in place */
-    top: 80px; /* Aligns the footer to the bottom */
-    left: 0; /* Aligns the footer to the left */
-    background-color: #333; /* Dark background for contrast */
-    color: #ffffff; /* White text */
-    padding: 10px 20px; /* Add some padding */
-    font-size: 0.9rem; /* Slightly smaller font size */
-    border-radius: 0 8px 8px 0; /* Rounded corner on top-right */
-    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2); /* Add slight shadow above the footer */
-    z-index: 1000; /* Ensure it stays on top */
+.footer{
+  margin-top: 70px;
+  padding: 20px;
+  text-align: center;
+  color: rgba(255,255,255,0.65);
+  border-top: 1px solid rgba(255,255,255,0.08);
 }
 
 /* Ensure text aligns well */
@@ -17,16 +12,3 @@
     margin: 0;
 }
 
-.email-link {
-    color: #add8e6; /* Light blue link color */
-    text-decoration: none;
-    font-weight: bold;
-    padding: 5px 2px;
-    border-radius: 5px;
-    transition: background-color 0.3s ease, color 0.3s ease;
-}
-
-.email-link:hover {
-    background-color: #add8e6;
-    color: #1e1e1e;
-}

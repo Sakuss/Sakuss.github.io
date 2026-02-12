@@ -1,11 +1,6 @@
 /* Education Section */
 .education-section {
-    color: #ffffff; /* White text for contrast */
-    padding: 40px 20px;
-    border-radius: 8px; /* Rounded corners */
-   /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Add depth */
-    margin: 20px auto;
-    max-width: 800px; /* Center and constrain width */
+    margin: 0;
 }
 
 /* Section Heading */
@@ -25,18 +20,10 @@
 }
 
 .education-item {
-    margin-bottom: 20px;
     padding: 20px;
     background: #1e1e1e; /* Slightly lighter background for contrast */
     border-radius: 8px; /* Rounded corners */
-    transition: transform 0.2s ease-in-out, background-color 0.3s ease-in-out; /* Smooth hover effects */
 }
-
-.education-item:hover {
-    background-color: #333; /* Highlight on hover */
-    transform: translateY(-5px); /* Slight lift effect */
-}
-
 /* Titles and Descriptions */
 .education-title {
     font-size: 1.2rem;
@@ -47,5 +34,22 @@
 .education-description {
     font-size: 1rem;
     line-height: 1.6;
-    color: #dddddd; /* Lighter gray for better readability */
+    color: #dddddd; /* Lighter gray for readability */
+    margin: 10px 0;
+}
+.academic-transcript-link {
+    display: inline-block;
+    padding : 6px 2px;
+    border-radius: 999px;
+    color: #add8e6;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.95rem;
+    border: 1px solid transparent;
+    transition: background-color .15s ease, border-color .15s ease, color .15s ease;
+}
+.academic-transcript-link:hover {
+    background: rgba(173,216,230,0.12);
+    border-color: rgba(173,216,230,0.25);
+    color: #ffffff;
 }
