@@ -15,9 +15,13 @@ function App() {
 
       <main className="container">
         <About />
+        <div className="fade-divider" />
         <Education />
+        <div className="fade-divider" />
         <Skills />
+        <div className="fade-divider" />
         <Projects />
+        <div className="fade-divider" />
         <WorkExperience />
       </main>
 

@@ -6,7 +6,7 @@ import image3 from '../thesis.jpg';
 function Projects() {
     return (
         <section id="projects" className="projects-section">
-            <h3 className="projects-heading">My Projects</h3>
+            <h3 className="projects-heading">Projects</h3>
             <div className="section-inner">
             <ul className="projects-list cards-stack">
                 <li className="project-item">
