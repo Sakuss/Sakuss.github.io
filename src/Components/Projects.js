@@ -15,8 +15,9 @@ function Projects() {
                     </h3>
                     <img src={image3} alt="Thesis" className="project-picture" />
                     <p className="project-description">Bachelor’s thesis project focused on developing an autonomous robot system using a client–server architecture. 
-                        The system allowed robots to navigate a track independently using sensor input and server-based control logic. A linefollower was used to follow the track and NFC-tags were used paired with RFID-reader to
-                        follow the robot and give correct movement orders to the robots. Robots could also take pictures of objects obscuring their path and get a response from AI of the object's identity.</p>
+                        The system enabled robots to navigate a track independently using sensor input and centralized control logic.
+                        A line-following sensor was used for track navigation, while NFC tags combined with an RFID reader allowed the system to determine robot location and issue movement commands. 
+                        The robots were also capable of capturing images of obstacles and using AI-based image analysis to identify objects blocking their path.</p>
                     <p className="project-description">My main areas of responsibility were developing the client side of the system and implementing the control logic for robot movement and sensor data processing.
                         I also contributed to the develompment of the control panel for monitoring and controlling the robots.
                     </p>
