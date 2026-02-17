@@ -1,18 +1,15 @@
-/* Skills Section */
 .skills-section{
-  margin: 0;
+    scroll-margin-top: 80px;
+    margin: 0;
 }
 
-/* Section Heading */
 .skills-heading {
     font-size: 2rem;
     text-align: center;
     margin-bottom: 20px;
-    color: #add8e6; /* A vibrant green color for emphasis */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Subtle shadow for a glow effect */
+    color: #add8e6;
 }
 
-/* Skills List */
 .skills-list{
   list-style: none;
   padding: 0;
@@ -23,14 +20,12 @@
     width: 100%;
     margin-bottom: 20px;
     padding: 20px;
-    background: #1e1e1e; /* Slightly lighter background for contrast */
-    border-radius: 8px; /* Rounded corners */
+    border-radius: 8px;
 }
 
-/* Titles and Descriptions */
 .skill-title {
     font-size: 1.2rem;
-    color: #add8e6; /* Same vibrant green for consistency */
+    color: #add8e6;
     margin-bottom: 8px;
 }
 
@@ -38,5 +33,5 @@
     margin: 10px 0;
     font-size: 1rem;
     line-height: 1.6;
-    color: #dddddd; /* Lighter gray for better readability */
+    color: #dddddd;
 }

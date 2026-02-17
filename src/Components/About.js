@@ -10,10 +10,10 @@ function About() {
                     <img src={image} alt="Saku Suorajärvi" className="profile-picture" />
                     <h2 className="about-heading">Saku Suorajärvi</h2>
                     <p className="about-description">
-                        I am a 25-year-old software development graduate from Oulu, Finland. My primary interests are in junior-level software development and testing. 
-                        Through my studies and projects, I have developed practical experience in building 
-                        web applications, working with APIs, and collaborating in team environments. I am eager to continue growing as a developer and contribute to meaningful software projects.
-                    </p>
+                        I am a 25-year-old software development graduate from Oulu, Finland, with a strong interests in junior-level software development and testing. 
+                        Through my studies and projects, I have developed practical experience in building web applications, mobile apps and backend systems in various programming languages and frameworks. 
+                        I've also gained experience working in teams and understanding the importance of effective communication and collaboration in software development projects.
+                        I am eager to continue growing as a developer and contribute to innovative projects in the software industry. </p>
                     <div className="about-links">
                         <a href="https://github.com/Sakuss" target="_blank" rel="noopener noreferrer" className="about-link">
                             GitHub

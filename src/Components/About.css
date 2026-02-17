@@ -1,25 +1,21 @@
-/* About Section */
 .about-section {
-    background-color: #1e1e1e; /* Match site background */
-    color: #ffffff; /* White text for contrast */
-    padding: 40px 20px;
-    border-radius: 8px; /* Rounded corners */
-    margin: 0;
-    max-width: none; /* Constrain width */
+    background-color: #1e1e1e;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    max-width: none;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-/* About Content Layout */
 .about-content {
     display: flex;
     align-items: center;
-    gap: 20px; /* Space between text and image */
-    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
-/* About Text Section */
 .about-text {
     flex: 1;
     min-width: 300px;
@@ -28,7 +24,7 @@
 .about-heading {
     text-align: center;
     font-size: 2rem;
-    color: #add8e6; /* Light blue highlight */
+    color: #add8e6;
     
 }
 
@@ -40,7 +36,6 @@
     margin-bottom: 20px;
 }
 
-/* About Links */
 .about-links {
     display: flex;
     gap: 15px;
@@ -55,7 +50,6 @@
   font-weight: 600;
   font-size: 0.95rem;
   border: 1px solid transparent;
-  transition: background-color .15s ease, border-color .15s ease, color .15s ease;
 }
 
 .about-link:hover {

@@ -1,36 +1,30 @@
-/* Projects Section */
 .projects-section {
+    scroll-margin-top: 80px;
     margin: 0;
 }
 
-/* Section Heading */
 .projects-heading {
     font-size: 2rem;
     text-align: center;
     margin-bottom: 20px;
-    color: #add8e6; /* Light blue highlight color */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Subtle glow effect */
+    color: #add8e6;
 }
 
-/* Projects List */
 .projects-list{
-  list-style: none;
-  padding: 0;
-  margin: 0;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
-/* Individual Project Item */
 .project-item {
-    background: #1E1E1E; /* Slightly lighter background for contrast */
     color: #ffffff;
     padding: 20px;
-    border-radius: 8px; /* Rounded corners */
+    border-radius: 8px;
 }
 
-/* Titles and Descriptions */
 .project-title {
     font-size: 1.2rem;
-    color: #add8e6; /* Light blue for links */
+    color: #add8e6;
     margin-bottom: 8px;
     text-decoration: none;
 }
@@ -43,30 +37,30 @@
 .project-description {
     font-size: 1rem;
     line-height: 1.6;
-    color: #dddddd; /* Lighter gray for readability */
+    color: #dddddd;
     margin: 10px 0;
 }
 
 .project-tech {
     font-size: 0.9rem;
-    color: #bbbbbb; /* Subtle gray for tech stack */
+    color: #bbbbbb;
 }
 
 .project-links p{
     display: inline-block;
     padding: 6px 2px;
-  border-radius: 999px;
-  color: #add8e6;
-  text-decoration: none;
-  font-weight: 600;
-  font-size: 0.95rem;
-  border: 1px solid transparent;
-  transition: background-color .15s ease, border-color .15s ease, color .15s ease;
+    border-radius: 999px;
+    color: #add8e6;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.95rem;
+    border: 1px solid transparent;
+    transition: background-color .15s ease, border-color .15s ease, color .15s ease;
 }
 .project-links p:hover {
-  background: rgba(173,216,230,0.12);
-  border-color: rgba(173,216,230,0.25);
-  color: #ffffff;
+    background: rgba(173,216,230,0.12);
+    border-color: rgba(173,216,230,0.25);
+    color: #ffffff;
 }
 
 .project-picture {
@@ -75,5 +69,4 @@
     height: auto;
     border-radius: 8px;
     margin-top: 15px;
-    
 }

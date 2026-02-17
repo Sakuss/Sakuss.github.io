@@ -1,18 +1,15 @@
-/* Work Section */
 .work-section {
+    scroll-margin-top: 80px;
     margin: 0;
 }
 
-/* Section Heading */
 .work-heading {
     font-size: 2rem;
     text-align: center;
     margin-bottom: 20px;
-    color: #add8e6; /* Light blue highlight color */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Subtle glow effect */
+    color: #add8e6;
 }
 
-/* Work List */
 .work-list{
   list-style: none;
   padding: 0;
@@ -22,14 +19,12 @@
 .work-item {
     width: 100%;
     padding: 20px;
-    background: #1e1e1e; /* Slightly lighter background for contrast */
-    border-radius: 8px; /* Rounded corners */
+    border-radius: 8px;
 }
 
-/* Titles and Descriptions */
 .work-title {
     font-size: 1.2rem;
-    color: #add8e6; /* Same light blue for consistency */
+    color: #add8e6;
     margin-bottom: 8px;
 }
 
@@ -37,5 +32,5 @@
     margin: 10px 0;
     font-size: 1rem;
     line-height: 1.6;
-    color: #dddddd; /* Lighter gray for readability */
+    color: #dddddd;
 }

@@ -34,7 +34,7 @@ p{
 }
 
 .section-inner{
-  max-width: 900px;   /* same as your About box */
+  max-width: 900px;
   margin: 0 auto;
 }
 
@@ -51,8 +51,8 @@ p{
 
 .fade-divider{
   height: 1px;
-  width: min(980px, 92vw);          /* slightly wider than section-inner (900px) */
-  margin: 48px auto;               /* space around the line */
+  width: min(980px, 92vw);
+  margin: 48px auto;
   background: linear-gradient(
     90deg,
     transparent,
