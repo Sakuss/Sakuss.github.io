@@ -17,11 +17,11 @@ function Skills() {
                 </li>
                 <li className="skill-item">
                     <h3 className="skill-title">Backend & Databases</h3>
-                    <p className="skill-description">Node.js · Firebase · MySQL · FastAPI · REST APIs <br />Backend development experience with Node.js, Firebase and FastAPI. Databases primarily done with MySQL.</p>
+                    <p className="skill-description">Node.js · Java Spring Boot · Firebase · MySQL · FastAPI · REST APIs <br />Backend development experience with Node.js, Java Spring Boot, Firebase and FastAPI. Databases primarily done with MySQL.</p>
                 </li>
                 <li className="skill-item">
                     <h3 className="skill-title">Tools & Platforms</h3>
-                    <p className="skill-description">Git · Windows · Linux<br />Efficient in using Git for version control and managing code repositories. Windows is my main platform for development, but I am also comfortable working on Linux. </p>
+                    <p className="skill-description">Git · AWS · Windows · Linux<br />Efficient in using Git for version control and managing code repositories. I have used AWS S3 to deploy and host applications. Windows is my main platform for development, but I am also comfortable working on Linux. </p>
                 </li>
                 <li className="skill-item">
                     <h3 className="skill-title">Project Management</h3>

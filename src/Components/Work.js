@@ -21,7 +21,7 @@ function WorkExperience() {
                     <p className="work-description">I do regular and thorough cleanings at this firm with zero-hours contract.</p>
                 </li>
                 <li className="work-item">
-                    <h3 className="work-title">Night Security/Location Unit/Runner</h3>
+                    <h3 className="work-title">Runner/Location Unit/Night Security</h3>
                     <p className="work-description">Company: Whatever pictures Oy</p>
                     <p className="work-description">Year: 2021 - 2025</p>
                     <p className="work-description">I've done some gigs for this company, mainly focusing on securing filming locations during the night, helping as a member of the location unit during filming and being a on-set runner.</p>
